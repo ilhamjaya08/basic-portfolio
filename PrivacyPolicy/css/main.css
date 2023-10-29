@@ -1,0 +1,220 @@
+/* Start General Role */
+
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size:18px;
+    height:5000px;
+    background-color:#EEE;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family:'Raleway', sans-serif;
+    margin-bottom:30px;
+}
+
+.h1 {
+    font-size:50px;
+}
+
+::-webkit-input-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-moz-input-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-o-input-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-ms-input-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-webkit-textarea-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-moz-textarea-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-o-textarea-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+::-ms-textarea-placeholder {
+    color:#b7b0b0;
+    font-weight:normal;
+}
+
+input,
+textarea {
+    font-weight:normal;
+}
+
+input:focus,
+textarea:focus {
+    outline-color:#000 !important;
+}
+
+/* End General Role */
+
+/* Start My Framework */
+
+.upper-case {
+    text-transform:uppercase;
+}
+
+.small-case {
+    text-transform:uppercase;
+}
+
+.raleway {
+    font-family:'Raleway', sans-serif;
+}
+
+.background-color {
+    background-color:#555E7B;
+}
+
+.main-color {
+    color:#FDE47F !important;
+}
+
+.botton-color {
+    background-color:#e04644;
+    color:#FFF;
+}
+
+.transparent-color {
+   background-color:rgba(0,0,0,0.3);
+}
+
+.transition {
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+
+.hover:hover {
+    color:#F00 !important;
+}
+
+.padding-section {
+    padding:50px 0;
+}
+
+.heading-border:after {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: #000;
+    margin:20px 0 0;
+}
+
+.heading-border-center:after {
+    content: '';
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: #000;
+    margin:20px auto;
+}
+
+/* End My Framework */
+
+
+/* Start Header */
+
+.header {
+    padding:10px;
+    background-color:#000;
+    color:#FFF;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    margin-top:30px;
+}
+
+.header-details {
+    padding:10px;
+    background-color:#f3a009;
+    color:#FFF;
+}
+
+/* End Header */
+
+/* Start Content Aside  */
+
+.content {
+    Margin-top:20px;
+}
+
+.content aside {
+    background-color:#000;
+    color:#EEE;
+    border-radius:7px;
+}
+
+.content aside h3 {
+    padding:30px 10px 10px;
+    
+}
+
+.content aside ul li {
+    padding:10px;
+    cursor:pointer;
+}
+
+.content aside ul li.active {
+    background-color:#f3a009;
+}
+
+/* End Content Aside */
+
+/* Start Content Aside info */
+
+.content .aside-info {
+    background-color:#000;
+    color:#FFF;
+    margin-top:20px;
+    border-radius:7px;
+    padding:20px 10px 10px;
+}
+
+.content .aside-info div {
+    display:none;
+    line-height:2;
+}
+
+.content .aside-info div.active {
+    display:block;
+}
+
+.content .aside-info div ol {
+    background-color:#EEE;
+    color:#000;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+.content .aside-info div ol li {
+    padding:10px;
+}
+
+/* Start Content Aside info */
+
+
+
